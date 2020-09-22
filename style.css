@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    background-image: url("universal.JPG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    font-family: Calibri;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#upper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: 100%;
+    font-size: 1.5vh;
+}
+#Title {
+    margin-right: 2vh;
+    text-align: center;
+
+}
+#searchBar {
+    border-radius: 1vh;
+    padding: 1vh;
+    font-family: Calibri;
+}
+#searchBtn {
+    font-family: Calibri;
+    background-color: white;
+    border: none;
+    margin-left: 1vh;
+    border-radius: 0.5vh;
+}
+
+#lower {
+    text-align: center;
+    width: 50%;
+}
+.shows {
+    padding: 4vh;
+    background-color: rgba(139,0,0,.8);
+    border-radius: 2vh;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: #340000;
+}
